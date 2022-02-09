@@ -4,75 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/8f452a6a05.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="./bs/css/bootstrap.min.css" />
-    <title>Chat App</title>
+    <link rel="stylesheet" href="home.css" />
+    <title>Home</title>
   </head>
   <body>
-    <div class="content">
-      <nav class="navbar navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Chatroom</a>
-          <i class="fas fa-power-off"></i>
-        </div>
-      </nav>
-      <div class="inner-content">
-        <div class="sidebar text-center">
-            <div class="top">
-                <h4>Room</h4>
-                <div class="middle">
-                    <h4>Online</h4>
-                    <p>one</p>
-                    <p>two</p>
-                    <p>three</p>
+      <div class="content">
+          <div class="left">
+              <h4>Sign up right now!</h4>
+              <hr class="divider">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis hic omnis, distinctio maxime similique dicta, animi dolore delectus vel in obcaecati! Laborum at mollitia illum amet necessitatibus vitae voluptate quos?</p>
+              <button class="btn btn-primary">learn more</button>
+          </div>
+          <div class="right">
+              <h4>Register</h4>
+              <hr>
+                <div class="form-group">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="far fa-paper-plane"></i></span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-unlock"></i></span>
+                        <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                      </div>
+                      <button type="button" class="btn btn-primary btn-lg">submit</button>
                 </div>
-            </div>
-            
-            <div class="footer-text">
-                <small>Powered with <i class="fas fa-heart"></i> by <strong>Gichimu</strong></small>
-            </div>
-        </div>
-        <div class="main">
-            <div class="chat-area">
-                <div class="chat">
-                    <h6>user1 4.47am</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore commodi pariatur sit nulla deserunt. Temporibus voluptates excepturi obcaecati ut eligendi.</p>
-                </div>
-                <div class="chat right">
-                    <h6>user1 4.47am</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore commodi pariatur sit nulla deserunt. Temporibus voluptates excepturi obcaecati ut eligendi.</p>
-                </div>
-                <div class="chat">
-                    <h6>User2 5.11pm</h6>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum officia adipisci vitae eius molestias, quibusdam harum sunt ducimus, impedit reiciendis, provident in ea quam debitis nesciunt illum soluta! Rem velit ea tempore at laborum corporis.</p>
-                </div>
-                <div class="chat right">
-                    <h6>user1 7.20am</h6>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, maxime libero vitae nihil maiores consequuntur quaerat numquam consectetur in ex hic autem ut quidem accusamus.</p>
-                </div>
-                <div class="chat">
-                    <h6>User2 9.11pm</h6>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-                </div> 
-                <div class="chat right">
-                  <h6>user1 9.20am</h6>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, maxime libero vitae nihil maiores consequuntur quaerat numquam consectetur in ex hic autem ut quidem accusamus.</p>
-              </div>
-              <div class="chat">
-                  <h6>User2 10.11pm</h6>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-              </div> 
-            </div>
-            <div class="chat-input input-group mb-3">
-                <input type="text" class="form-control" placeholder="message" aria-label="message" aria-describedby="basic-addon2">
-                <span class="input-group-text" id="basic-addon2"><i class="fas fa-paper-plane"></i></span>
-              </div>
-        </div>
+              <hr>
+              <span class="socials">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+              </span>
+          </div>
       </div>
-    </div>
     <script src="scripts.js"></script>
-    <script src="./bs/js/bootstrap.min.js"></script>
-    <script src="./bs/js/jquery-3.6.0.min.js"></script>
   </body>
 </html>
