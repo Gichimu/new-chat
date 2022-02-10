@@ -1,0 +1,27 @@
+{
+  "name": "new-chat",
+  "version": "1.0.0",
+  "description": "Chat app with SocketIO",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gichimu/new-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gichimu/new-chat/issues"
+  },
+  "homepage": "https://github.com/Gichimu/new-chat#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
