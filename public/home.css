@@ -28,7 +28,7 @@ body {
 .left {
   width: 40%;
   font-size: 1em;
-  /* color: rgb(253, 251, 251); */
+  color: rgb(0, 0, 0);
 }
 
 .right {
@@ -103,3 +103,27 @@ hr {
     align-items: center;
 }
 
+
+@media screen and (max-width: 1406px) {
+    body {
+      background: url("https://wallpaperaccess.com/full/51363.jpg") no-repeat;
+      /* background-size: inherit; */
+      /* background-position: center; */
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      width: 70%;
+    }
+
+    .left {
+      width: 100%;
+    }
+
+    .right {
+      width: 100%;
+      margin: 0;
+    }
+}
